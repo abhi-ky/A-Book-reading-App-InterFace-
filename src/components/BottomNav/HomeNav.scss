@@ -1,0 +1,17 @@
+.HomeNav{
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    img{
+        position: relative;
+        top:15px;
+        left: 15px;
+        width: 70px;
+        // background-color: pink;
+    }
+    background-color: gray;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+}

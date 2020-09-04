@@ -1,0 +1,17 @@
+.BackNav{
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    left: 40px;
+    img{
+        position: relative;
+        top:15px;
+        left: 10px;
+        width: 70px;
+        background-color: gray;
+    }
+    background-color: gray;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+}

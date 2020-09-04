@@ -1,0 +1,71 @@
+.BookTemp{
+    // padding: ;
+   background-color: white;
+    padding-top: 10px;
+    border: solid 1px gray;
+    border-radius: 15px;
+    &:hover{
+        box-shadow: 1px 1px 10px 3px #d7d7d7;
+    }
+
+  
+
+    .card{
+        width: 90%;
+        height: 250px;
+        // background-color: pink;
+        margin: 0px auto;
+        padding : 0px 0px;
+        
+        
+        .container1{
+            display: flex;
+            height: 100px;
+            // background-color: pink;
+            margin-bottom: 20px;
+            .textDetails{
+                .bookTitle{
+                    display: block;
+                    font-size: 30px;
+                    font-weight: 500;
+                    width: 300px;
+                    // background-color: gray;
+                }
+                .bookAuthor{
+                    display: block;
+                    font-size: 25px;
+                    font-weight: 100;
+                    width: 300px;
+                    // background-color: gray;
+                }
+
+            }
+            .imageDetails{
+                img{
+                    width: 80px;
+                }
+            }
+        }
+        .description{
+            display: block;
+            position: relative;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            // top:40px;
+            
+        }
+        .actions{
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            .addIcon{
+                width: 50px;
+            }
+            .removeIcon{
+                width : 50px;
+                transform :rotate(45deg);
+            }
+        }
+    }
+}
